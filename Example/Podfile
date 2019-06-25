@@ -5,6 +5,7 @@ def common_pods
   pod 'ActionCableClient', :path => '../'
   pod 'SwiftyJSON'
   pod 'SnapKit'
+  pod 'Starscream', :git => 'https://github.com/myphsar/Starscream.git'
 end
 
 def common_test_pods
