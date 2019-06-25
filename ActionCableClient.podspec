@@ -18,4 +18,4 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Source/Classes/**/*'
   s.frameworks = 'Foundation'
-  s.dependency 'Starscream', ~> :git => "https://github.com/myphsar/Starscream.git"
+  s.dependency 'Starscream', '~> 2.0.4'
