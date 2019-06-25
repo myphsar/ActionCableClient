@@ -5,13 +5,11 @@ def common_pods
   pod 'ActionCableClient', :path => '../'
   pod 'SwiftyJSON'
   pod 'SnapKit'
-  pod 'Starscream', :git => 'https://github.com/myphsar/Starscream.git'
 end
 
 def common_test_pods
   pod 'Quick', '~> 0.9.3'
   pod 'Nimble', '3.2.0'
-  pod 'Starscream', :git => 'https://github.com/myphsar/Starscream.git'
 end
 
 target 'ActionCableClient-Example-iOS' do
